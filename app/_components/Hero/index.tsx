@@ -1,5 +1,5 @@
-import Image from "next/image";
-import styles from "./index.module.css";
+import Image from 'next/image';
+import styles from './index.module.css';
 
 type Props = {
   title: string;
@@ -17,7 +17,7 @@ export default function Hero({ title, sub }: Props) {
         className={styles.bgimg}
         src="/img-mv.jpg"
         alt=""
-        width={400}
+        width={4000}
         height={1200}
       />
     </section>

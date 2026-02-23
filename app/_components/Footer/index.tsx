@@ -1,11 +1,11 @@
-import Link from "next/link";
-import styles from "./index.module.css";
+import Link from 'next/link';
+import styles from './index.module.css';
 
 export default function Footer() {
   return (
     <footer className={styles.footer}>
       <nav className={styles.nav}>
-        <ul className={styles.item}>
+        <ul className={styles.items}>
           <li className={styles.item}>
             <Link href="/news">ニュース</Link>
           </li>
@@ -17,7 +17,7 @@ export default function Footer() {
           </li>
         </ul>
       </nav>
-      <p className={styles.cr}>©︎ SIMPLE. All Rights Reserved 2024</p>
+      <p className={styles.cr}>© SIMPLE. All Rights Reserved 2024</p>
     </footer>
   );
 }
